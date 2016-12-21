@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 
 @interface PerformanceMonitor : NSObject
-
+@property (nonatomic,strong)    NSMapTable *mapTable;
+@property (nonatomic,strong) NSMutableDictionary *dic;
 + (instancetype)sharedInstance;
 
 - (void)start;

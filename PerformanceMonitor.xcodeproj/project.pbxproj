@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3BAE87821E00F620006125AB /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE87811E00F620006125AB /* BSBacktraceLogger.m */; };
+		3BBB54991E097C6600ADA300 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB54971E097C6500ADA300 /* SecondViewController.m */; };
+		3BBB549A1E097C6600ADA300 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB54981E097C6500ADA300 /* SecondViewController.xib */; };
+		3BBB549D1E097CEC00ADA300 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB549C1E097CEC00ADA300 /* TestView.m */; };
 		B8B10FA21BF5E02300447088 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B10FA11BF5E02300447088 /* main.m */; };
 		B8B10FA51BF5E02300447088 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B10FA41BF5E02300447088 /* AppDelegate.m */; };
 		B8B10FA81BF5E02300447088 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8B10FA71BF5E02300447088 /* ViewController.m */; };
@@ -20,6 +23,11 @@
 /* Begin PBXFileReference section */
 		3BAE87801E00F620006125AB /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
 		3BAE87811E00F620006125AB /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
+		3BBB54961E097C6500ADA300 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3BBB54971E097C6500ADA300 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3BBB54981E097C6500ADA300 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		3BBB549B1E097CEC00ADA300 /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		3BBB549C1E097CEC00ADA300 /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 		B8B10F9D1BF5E02300447088 /* PerformanceMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B10FA11BF5E02300447088 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B8B10FA31BF5E02300447088 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +76,11 @@
 				B8B10FA41BF5E02300447088 /* AppDelegate.m */,
 				B8B10FA61BF5E02300447088 /* ViewController.h */,
 				B8B10FA71BF5E02300447088 /* ViewController.m */,
+				3BBB54961E097C6500ADA300 /* SecondViewController.h */,
+				3BBB54971E097C6500ADA300 /* SecondViewController.m */,
+				3BBB54981E097C6500ADA300 /* SecondViewController.xib */,
+				3BBB549B1E097CEC00ADA300 /* TestView.h */,
+				3BBB549C1E097CEC00ADA300 /* TestView.m */,
 				3BAE87801E00F620006125AB /* BSBacktraceLogger.h */,
 				3BAE87811E00F620006125AB /* BSBacktraceLogger.m */,
 				B8B10FB91BF5E0BE00447088 /* PerformanceMonitor.h */,
@@ -147,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBB549A1E097C6600ADA300 /* SecondViewController.xib in Resources */,
 				B8B10FB01BF5E02400447088 /* LaunchScreen.storyboard in Resources */,
 				B8B10FAD1BF5E02400447088 /* Assets.xcassets in Resources */,
 				B8B10FAB1BF5E02400447088 /* Main.storyboard in Resources */,
@@ -160,6 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BBB549D1E097CEC00ADA300 /* TestView.m in Sources */,
+				3BBB54991E097C6600ADA300 /* SecondViewController.m in Sources */,
 				B8B10FA81BF5E02300447088 /* ViewController.m in Sources */,
 				B8B10FBB1BF5E0BE00447088 /* PerformanceMonitor.m in Sources */,
 				B8B10FA51BF5E02300447088 /* AppDelegate.m in Sources */,

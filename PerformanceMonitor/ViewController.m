@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PerformanceMonitor.h"
+#import "SecondViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView *_tableView;
@@ -32,6 +33,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+- (void)createMapTable{
+
 }
 
 #pragma mark - UITableViewDataSource
@@ -61,6 +67,11 @@
     
     cell.textLabel.text = cellText;
     return cell;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    SecondViewController *secondViewController = [[SecondViewController alloc] init];
+    [self presentViewController:secondViewController animated:YES completion:nil];
 }
 
 @end

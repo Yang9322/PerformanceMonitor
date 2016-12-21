@@ -18,6 +18,7 @@
     CFRunLoopActivity activity;
     long start;
     long finish;
+
 }
 @end
 
@@ -31,6 +32,14 @@
         instance = [[self alloc] init];
     });
     return instance;
+}
+
+- (instancetype)init{
+    if (self = [super init]) {
+        _mapTable = [[NSMapTable alloc] initWithKeyOptions:NSPointerFunctionsStrongMemory valueOptions:NSPointerFunctionsWeakMemory capacity:0];
+        _dic = [NSMutableDictionary dictionary];
+    }
+    return self;
 }
 
 static void runLoopObserverCallBack(CFRunLoopObserverRef observer, CFRunLoopActivity activity, void *info)
