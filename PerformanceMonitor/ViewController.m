@@ -9,10 +9,13 @@
 #import "ViewController.h"
 #import "PerformanceMonitor.h"
 #import "SecondViewController.h"
+#include "LearnC.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 {
     UITableView *_tableView;
 }
+@property (nonatomic,copy)    NSString *testStr;
+
 @end
 
 @implementation ViewController
@@ -27,6 +30,24 @@
     [self.view addSubview:_tableView];
     
     [[PerformanceMonitor sharedInstance] start];
+    
+//    void **skills =  calloc(3, sizeof(char *));
+//    char * learn = "learn";
+//    skills[0] = learn;
+//    char *piano = "piano";
+//    skills[1] = piano;
+//    Student *student = initStudent(23, skills);
+//    
+//    printf("%s\n", student->skills[0]);
+//    printf("%s\n", student->skills[1]);
+//    printf("%s", student->skills[2]);
+    
+//    
+//    [self setValue:@"123" forKey:@"_testStr"];
+//    
+//    NSLog(@" begin---%@---end",self.testStr);
+
+
 }
 
 - (void)didReceiveMemoryWarning

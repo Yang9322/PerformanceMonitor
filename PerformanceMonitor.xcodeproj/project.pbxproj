@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B4BED2C1E0BAE530071FD72 /* LearnC.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B4BED2A1E0BAE530071FD72 /* LearnC.c */; };
 		3BAE87821E00F620006125AB /* BSBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE87811E00F620006125AB /* BSBacktraceLogger.m */; };
 		3BBB54991E097C6600ADA300 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBB54971E097C6500ADA300 /* SecondViewController.m */; };
 		3BBB549A1E097C6600ADA300 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BBB54981E097C6500ADA300 /* SecondViewController.xib */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B4BED2A1E0BAE530071FD72 /* LearnC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LearnC.c; sourceTree = "<group>"; };
+		3B4BED2B1E0BAE530071FD72 /* LearnC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnC.h; sourceTree = "<group>"; };
 		3BAE87801E00F620006125AB /* BSBacktraceLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSBacktraceLogger.h; sourceTree = "<group>"; };
 		3BAE87811E00F620006125AB /* BSBacktraceLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSBacktraceLogger.m; sourceTree = "<group>"; };
 		3BBB54961E097C6500ADA300 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				3BAE87811E00F620006125AB /* BSBacktraceLogger.m */,
 				B8B10FB91BF5E0BE00447088 /* PerformanceMonitor.h */,
 				B8B10FBA1BF5E0BE00447088 /* PerformanceMonitor.m */,
+				3B4BED2A1E0BAE530071FD72 /* LearnC.c */,
+				3B4BED2B1E0BAE530071FD72 /* LearnC.h */,
 				B8B10FA91BF5E02400447088 /* Main.storyboard */,
 				B8B10FAC1BF5E02400447088 /* Assets.xcassets */,
 				B8B10FAE1BF5E02400447088 /* LaunchScreen.storyboard */,
@@ -180,6 +185,7 @@
 				B8B10FBB1BF5E0BE00447088 /* PerformanceMonitor.m in Sources */,
 				B8B10FA51BF5E02300447088 /* AppDelegate.m in Sources */,
 				B8B10FA21BF5E02300447088 /* main.m in Sources */,
+				3B4BED2C1E0BAE530071FD72 /* LearnC.c in Sources */,
 				3BAE87821E00F620006125AB /* BSBacktraceLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
